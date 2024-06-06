@@ -1,0 +1,8 @@
+#scaleValue {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    font-family: Noto Sans, sans-serif;
+    font-size: 14px;
+}

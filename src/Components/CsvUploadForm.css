@@ -1,0 +1,16 @@
+#loadCsvButton {
+    position: absolute;
+    width: 150px;
+    padding: 6px;
+    font-family: Noto Sans, sans-serif;
+    font-size: 14px;
+    border: 0.5px solid rgb(1, 1, 24);
+    top: 15px;
+    left: 80px;
+}
+#loadCsvButton:hover {
+    background-color: #e7e7e7d9;
+}
+#loadCsvButton:active {
+    background-color: #d2ecff;
+}
