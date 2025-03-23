@@ -3,7 +3,8 @@ import { loadModules } from 'esri-loader';
 import GridLines from './GridLines';
 import PoleSwitcher from './PoleSwitcher';
 import ScaleIndicator from './ScaleIndicator';
-import CsvLayer from './CsvLayer';
+import JsonLayer from './JsonLayer';
+import Timeslider from './Timeslider';
 
 function SceneComp() {
   const mapRef = useRef(null);
@@ -98,7 +99,8 @@ function SceneComp() {
     <div ref={mapRef} style={{ width: '100%', height: '100vh' }}>
       {map && <GridLines map={map} />}
       {view && <PoleSwitcher view={view} />}
-      {map && view && <CsvLayer map={map} view={view} />}
+      {map && view && <Timeslider view={view} map={map} />}
+      {map && view && <JsonLayer map={map} view={view} />}
       {view && <ScaleIndicator view={view} />}
     </div>
   );

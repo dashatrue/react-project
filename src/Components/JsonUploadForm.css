@@ -1,6 +1,6 @@
-#loadCsvButton {
+#loadJsonButton {
     position: absolute;
-    width: 150px;
+    width: 170px;
     padding: 6px;
     font-family: Noto Sans, sans-serif;
     font-size: 14px;
@@ -8,9 +8,9 @@
     top: 15px;
     left: 80px;
 }
-#loadCsvButton:hover {
+#loadJsonButton:hover {
     background-color: #e7e7e7d9;
 }
-#loadCsvButton:active {
+#loadJsonButton:active {
     background-color: #d2ecff;
 }
